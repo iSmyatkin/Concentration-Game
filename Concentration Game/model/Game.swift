@@ -9,16 +9,12 @@ import Foundation
 
 struct Game {
 
-    var cards = [Card]()
     var score = 0
+    var flipCount = 0
+    var cards = [Card]()
     
-    func chooseCard() {
-        
-    }
-    
-    func matchCards() {
-        
-    }
+    func chooseCard() {    }
+    func matchCards() {    }
     
     private func createDeckOfCards(pairsOfCards: Int) -> [Card] {
         var deckOfCards = [Card]()
@@ -33,3 +29,4 @@ struct Game {
         cards = createDeckOfCards(pairsOfCards: pairsOfCards)
     }
 }
+
