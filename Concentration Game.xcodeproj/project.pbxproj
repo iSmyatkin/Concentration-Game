@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		2C21D86B2555573C00083FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21D86A2555573C00083FE0 /* AppDelegate.swift */; };
 		2C21D86D2555573C00083FE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21D86C2555573C00083FE0 /* SceneDelegate.swift */; };
-		2C21D86F2555573C00083FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21D86E2555573C00083FE0 /* ViewController.swift */; };
 		2C21D8722555573C00083FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C21D8702555573C00083FE0 /* Main.storyboard */; };
 		2C21D8742555573E00083FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21D8732555573E00083FE0 /* Assets.xcassets */; };
 		2C21D8772555573E00083FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C21D8752555573E00083FE0 /* LaunchScreen.storyboard */; };
+		2C21D885255559C900083FE0 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21D884255559C900083FE0 /* ConcentrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C21D8672555573C00083FE0 /* Concentration Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concentration Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21D86A2555573C00083FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C21D86C2555573C00083FE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C21D86E2555573C00083FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C21D8712555573C00083FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C21D8732555573E00083FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C21D8762555573E00083FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C21D8782555573E00083FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C21D884255559C900083FE0 /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,31 @@
 		2C21D8692555573C00083FE0 /* Concentration Game */ = {
 			isa = PBXGroup;
 			children = (
-				2C21D86A2555573C00083FE0 /* AppDelegate.swift */,
-				2C21D86C2555573C00083FE0 /* SceneDelegate.swift */,
-				2C21D86E2555573C00083FE0 /* ViewController.swift */,
+				2C21D8812555585000083FE0 /* model */,
+				2C21D87F2555581500083FE0 /* supporting files */,
 				2C21D8702555573C00083FE0 /* Main.storyboard */,
-				2C21D8732555573E00083FE0 /* Assets.xcassets */,
+				2C21D884255559C900083FE0 /* ConcentrationViewController.swift */,
 				2C21D8752555573E00083FE0 /* LaunchScreen.storyboard */,
 				2C21D8782555573E00083FE0 /* Info.plist */,
 			);
 			path = "Concentration Game";
+			sourceTree = "<group>";
+		};
+		2C21D87F2555581500083FE0 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2C21D86A2555573C00083FE0 /* AppDelegate.swift */,
+				2C21D86C2555573C00083FE0 /* SceneDelegate.swift */,
+				2C21D8732555573E00083FE0 /* Assets.xcassets */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		2C21D8812555585000083FE0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C21D86F2555573C00083FE0 /* ViewController.swift in Sources */,
+				2C21D885255559C900083FE0 /* ConcentrationViewController.swift in Sources */,
 				2C21D86B2555573C00083FE0 /* AppDelegate.swift in Sources */,
 				2C21D86D2555573C00083FE0 /* SceneDelegate.swift in Sources */,
 			);
